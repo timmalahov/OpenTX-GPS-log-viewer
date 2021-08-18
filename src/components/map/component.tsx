@@ -10,6 +10,7 @@ import {
 import Gradient from 'javascript-color-gradient';
 import { LogItemInterface } from '../../utilities/logItem';
 import { MapComponentPropsInterface } from './MapComponentPropsInterface';
+import {SensorType} from "../../utilities/LogItemEnum";
 
 const containerStyle = {
   width: '100%',
@@ -59,11 +60,11 @@ const MapComponent: FunctionComponent<MapComponentPropsInterface> = ({
     }));
 
   const highest = logInfo.reduce((prev, current) =>
-    Number(prev['Alt(m)'] || '') > Number(current['Alt(m)'] || '')
+    Number(prev[SensorType.Alt] || '') > Number(current[SensorType.Alt] || '')
       ? prev
       : current
   );
-  colorGradient.setMidpoint(Math.floor(Number(highest['Alt(m)']) * 0.66));
+  colorGradient.setMidpoint(Math.floor(Number(highest[SensorType.Alt]) * 0.66));
 
   const onLoad = React.useCallback((loadedMap) => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -95,8 +96,8 @@ const MapComponent: FunctionComponent<MapComponentPropsInterface> = ({
 
     return lines.map((line: any, index: number) => {
       const colorSourceData =
-        Number(logArray[index + 1]['Alt(m)']) > 0
-          ? logArray[index + 1]['Alt(m)']
+        Number(logArray[index + 1][SensorType.Alt]) > 0
+          ? logArray[index + 1][SensorType.Alt]
           : 1;
 
       return (
