@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/OpenTX-GPS-log-viewer/static/css/main.620105c1.chunk.css",
+    "main.js": "/OpenTX-GPS-log-viewer/static/js/main.74e45db1.chunk.js",
+    "main.js.map": "/OpenTX-GPS-log-viewer/static/js/main.74e45db1.chunk.js.map",
+    "runtime-main.js": "/OpenTX-GPS-log-viewer/static/js/runtime-main.b7c5fed6.js",
+    "runtime-main.js.map": "/OpenTX-GPS-log-viewer/static/js/runtime-main.b7c5fed6.js.map",
+    "static/css/2.b4ebbe46.chunk.css": "/OpenTX-GPS-log-viewer/static/css/2.b4ebbe46.chunk.css",
+    "static/js/2.f798aedd.chunk.js": "/OpenTX-GPS-log-viewer/static/js/2.f798aedd.chunk.js",
+    "static/js/2.f798aedd.chunk.js.map": "/OpenTX-GPS-log-viewer/static/js/2.f798aedd.chunk.js.map",
+    "static/js/3.fd5c0d16.chunk.js": "/OpenTX-GPS-log-viewer/static/js/3.fd5c0d16.chunk.js",
+    "static/js/3.fd5c0d16.chunk.js.map": "/OpenTX-GPS-log-viewer/static/js/3.fd5c0d16.chunk.js.map",
+    "index.html": "/OpenTX-GPS-log-viewer/index.html",
+    "static/css/2.b4ebbe46.chunk.css.map": "/OpenTX-GPS-log-viewer/static/css/2.b4ebbe46.chunk.css.map",
+    "static/css/main.620105c1.chunk.css.map": "/OpenTX-GPS-log-viewer/static/css/main.620105c1.chunk.css.map",
+    "static/js/2.f798aedd.chunk.js.LICENSE.txt": "/OpenTX-GPS-log-viewer/static/js/2.f798aedd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7c5fed6.js",
+    "static/css/2.b4ebbe46.chunk.css",
+    "static/js/2.f798aedd.chunk.js",
+    "static/css/main.620105c1.chunk.css",
+    "static/js/main.74e45db1.chunk.js"
+  ]
+}
