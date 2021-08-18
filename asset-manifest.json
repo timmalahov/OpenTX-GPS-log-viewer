@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OpenTX-GPS-log-viewer/static/css/main.620105c1.chunk.css",
-    "main.js": "/OpenTX-GPS-log-viewer/static/js/main.74e45db1.chunk.js",
-    "main.js.map": "/OpenTX-GPS-log-viewer/static/js/main.74e45db1.chunk.js.map",
+    "main.js": "/OpenTX-GPS-log-viewer/static/js/main.9ebc88f6.chunk.js",
+    "main.js.map": "/OpenTX-GPS-log-viewer/static/js/main.9ebc88f6.chunk.js.map",
     "runtime-main.js": "/OpenTX-GPS-log-viewer/static/js/runtime-main.b7c5fed6.js",
     "runtime-main.js.map": "/OpenTX-GPS-log-viewer/static/js/runtime-main.b7c5fed6.js.map",
     "static/css/2.b4ebbe46.chunk.css": "/OpenTX-GPS-log-viewer/static/css/2.b4ebbe46.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.b4ebbe46.chunk.css",
     "static/js/2.f798aedd.chunk.js",
     "static/css/main.620105c1.chunk.css",
-    "static/js/main.74e45db1.chunk.js"
+    "static/js/main.9ebc88f6.chunk.js"
   ]
 }
