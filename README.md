@@ -1,5 +1,7 @@
 # OpenTX-GPS-log-viewer
 
+https://timmalahov.github.io/OpenTX-GPS-log-viewer/
+
 ## Available Scripts
 
 In the project directory, you can run:
